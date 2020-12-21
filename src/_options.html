@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://apis.google.com/js/api.js" crossorigin="anonymous" id="gapi" async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="googlescripts/_auth.js"></script>
+</head>
+<body>
+    <div>
+        <button id="sign-in-or-out-button"
+                style="margin-left: 25px"
+                class="browser-style">Sign In/Authorize</button>
+        <button id="revoke-access-button"
+                style="display: none; margin-left: 25px"
+                class="browser-style">Revoke access</button>
+        <div id="auth-status" style="display: inline; padding-left: 25px"></div><hr>
+    </div>
+</body>
+</html>
